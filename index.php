@@ -3,6 +3,8 @@
   function rang ($n) {
     return "{$n}<sup>". ($n == 1 ? 'ière' : 'ième') ."</sup>";
   }
+
+  //COMMENTAIRESSSSS!!!
   // Lit les lignes du fichier biblio.txt, applique `rtrim` sur chaque
   // ligne puis les regroupes par ensembles de 9 lignes.
   $ouvrages = array_chunk(array_map('rtrim', file('./biblio.txt')), 11);
